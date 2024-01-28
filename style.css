@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login-form{
+
+margin: auto;
+
+
+display: block;
+max-width: 300px;
+height: 100%;
+padding-left:  5%;
+padding-right: 5%;
+padding-bottom: 10px;
+
+}
+
+form img{
+    max-width: 180px;
+    padding-left: 35px;
+    justify-content: center;
+    
+    
+    
+}
+.image img{
+   max-width: 80px;
+  
+   
+  
+}
+.image{
+    display: flex;
+}
+.image img:last-child{
+    height: 23px;
+}
+#para{
+    text-align: center;
+    
+
+}
+form{
+    margin-top:40px ;
+    padding: 10px;
+    width: 100%;
+    height: 320px;
+    border: 1px solid rgb(207, 207, 207);
+    object-fit: cover;
+}
+.bottom-text{
+    margin: 20px 0;
+    height: 100%;
+    width: 108%;
+    border: 1px solid rgb(207, 207, 207);
+}
+form p{
+    color:  rgb(207, 207, 207);
+    margin: 5% 1%  ;
+    text-align: center;
+    
+}
+
+form p span{
+    color: black;
+    text-align: center;
+}
+.input-box{
+    width: 93%;
+    margin: 2%;
+    height: 28px;
+   
+    border: 1px solid  rgb(207, 207, 207);
+    border-radius: 4px;
+}
+
+button{
+    width: 95%;
+   margin-left: 3%;
+   margin-top: 3%;
+   height: 28px;
+   margin-bottom: 8px;
+   border-radius: 4px;
+   color: white;
+   background-color:  rgba(0, 162, 255, 0.777);
+   border-color: rgba(0, 162, 255, 0.777);
+}
+form a{
+   padding-left: 30%;
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   
+  
+   
+  
+}
+
+.error{
+    color: rgb(228, 44, 44);
+}
+.bottom-text p{
+    width: 100%;
+    margin-left: 17%;
+    margin-top: 3%;
+}
+.bottom-text p span a{
+    text-decoration: none;
+
+}
+@media(max-width:360px){
+    .login-form{
+        width: 100%;
+        
+    }
+
+}
+
+
